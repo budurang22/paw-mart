@@ -38,8 +38,8 @@ jwt:
   refresh-token-expiry: 604800000 # 7일
 
 toss:
-  secret-key: ${TOSS_SECRET_KEY:test_sk_zXLkKEypNArWmo50nX3lmeaxYG5R}
-  client-key: ${TOSS_CLIENT_KEY:test_ck_D5GePWvyJnrK0W0k6q8gLzN97Eoh}
+  secret-key: ${TOSS_SECRET_KEY}
+  client-key: ${TOSS_CLIENT_KEY}
 
 # 파일 업로드 — 로컬 디렉토리 저장 (dev/포트폴리오 단계). 운영 시 S3 등으로 교체.
 app:

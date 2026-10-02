@@ -5,3 +5,4 @@ package-lock.json
 generate.js
 *.log
 .DS_Store
+*.backup.*
